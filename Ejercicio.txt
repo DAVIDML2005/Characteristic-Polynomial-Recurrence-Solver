@@ -1,0 +1,6 @@
+𝗣𝗿𝗼𝗯𝗹𝗲𝗺𝗮
+Asuma que la población de venados de Sincelejo es 200 en el momento n=0 y en el momento n=1 es 220. Además, el aumento del momento n-1 al momento n es dos veces el aumento del momento n-2 al momento n-1. 
+Halle la ecuación de recurrencia que modele la población de venados y encuentre la ecuación no recurrente.
+
+𝗜𝗻𝗶𝗰𝗶𝗼 𝗱𝗲 𝗹𝗮 𝘀𝗼𝗹𝘂𝗰𝗶ó𝗻
+f_n - f_{n-1} = 2(f_{n-1} - f_{n_2})f_n = 2f_{n-1} - 2f_{n-2} + f_{n-1}f_n = 3f_{n-1} - 2f_{n-2}
